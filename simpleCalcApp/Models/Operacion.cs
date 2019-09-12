@@ -12,6 +12,11 @@ namespace simpleCalcApp.Models
         public double valor1{ get; set; }
         public double valor2 { get; set; }
         public double  resultado{ get; set; }
+
+        public static  Operacion procesar (Operacion poperacion)
+        {
+            return null;
+        }
         
     }
 }
