@@ -31,33 +31,33 @@ namespace simpleCalcApp.Models
             {
                 case "Suma":
                     return Sumar(poperacion);
-                    //break;
+                    
                 case "Resta":
                     return Restar(poperacion);
-                    //break;
+                    
                 case "Division":
                     return Dividir(poperacion);
-                    //break;
+                    
                 case "Multiplicacion":
                     return Multiplicar(poperacion);
-                    //break;
+                    
             }
             return null;
         }
 
         private static Operacion Multiplicar(Operacion poperacion)
         {
-            throw new NotImplementedException();
+            return op = new Operacion(poperacion.tipOperacion, poperacion.valor1, poperacion.valor2, poperacion.valor1 * poperacion.valor2);
         }
 
         private static Operacion Dividir(Operacion poperacion)
         {
-            throw new NotImplementedException();
+            return op = new Operacion(poperacion.tipOperacion, poperacion.valor1, poperacion.valor2, poperacion.valor1 / poperacion.valor2);
         }
 
         private static Operacion Restar(Operacion poperacion)
         {
-            throw new NotImplementedException();
+            return op = new Operacion(poperacion.tipOperacion, poperacion.valor1, poperacion.valor2, poperacion.valor1 - poperacion.valor2);
         }
 
         private static Operacion Sumar(Operacion poperacion)
