@@ -9,7 +9,7 @@ namespace simpleCalcApp.Models
     {
         public static Operacion op = new Operacion();
         //Comment cambio github
-        public string tipOperacion { get; set; }
+        public String tipOperacion { get; set; }
         public double valor1{ get; set; }
         public double valor2 { get; set; }
         public double  resultado{ get; set; }
@@ -17,8 +17,7 @@ namespace simpleCalcApp.Models
         public Operacion()
         {
         }
-
-        public Operacion(string ptipo, double pvalor1, double pvalor2, double presultado)
+        public Operacion(String ptipo, double pvalor1, double pvalor2, double presultado)
         {
             this.tipOperacion = ptipo;
             this.valor1 = pvalor1;
