@@ -8,7 +8,7 @@ namespace simpleCalcApp.Models
     public class Operacion
     {
         public static Operacion op = new Operacion();
-        //Comment cambio github
+        
         public String tipOperacion { get; set; }
         public double valor1{ get; set; }
         public double valor2 { get; set; }
@@ -63,7 +63,6 @@ namespace simpleCalcApp.Models
         private static Operacion Sumar(Operacion poperacion)
         {
             return  op = new Operacion(poperacion.tipOperacion,poperacion.valor1, poperacion.valor2, poperacion.valor1+poperacion.valor2);
- 
         }
     }
 }
